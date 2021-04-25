@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with CSS Flexbox:</p>
+
+<div class="row">
+  <div class="column">
+    <ol>
+        <li><a href="#">Verify BLE Connection</a></li>
+        <li><a href="#">Plan Flight</a></li>
+        <li><a href="#">Start Flight</a></li>
+        <li><a href="#">Metrics</a></li>
+        <li><a href="#">[Optional] Manual Deployment</a></li>
+        <li><a href="#">[Optional] Manual Deployment</a></li>
+        <li><a href="#">[Optional] Manual Deployment</a></li>
+    </ol>
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
