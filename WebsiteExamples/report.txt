@@ -1,0 +1,7 @@
+Reasons for the deployment:
+The system detected that it went past the maximum altitude.
+
+Altitude: 54m
+Acceleration: 10m^2/s
+Flight Time: 80s
+

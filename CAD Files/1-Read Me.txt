@@ -1,0 +1,12 @@
+The System Assembly file is a Solidworks assembly that shows how the different components interact with each other
+and their placement. The files that are 3D printed and their quantities are: 
+-Case x1
+-FTS Flap Rod x4
+-FTS Flap Stop x4
+-Lid x2
+-Parachute Cage x1
+-Piercing Block x1
+-Tablet Top x1 per system deployment
+-Tablet Bottom x1 per system deployment
+
+

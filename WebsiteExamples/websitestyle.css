@@ -1,0 +1,196 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    background-color: #f2bf49;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #036;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #036;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #page_wrapper {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 2px 16px;
+  }
+  
+  body {
+    margin-bottom: 60px;
+  }
+  
+  header {
+      background-color: #036;
+  }
+  
+  nav {
+      height: 42px;
+  }
+  
+  nav ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+  }
+  nav li a {
+      font-family: "Mukta Mahee", arial, sans-serif;
+      font-family: cursive;
+      color:white;
+      font-size: 22px;
+      text-decoration: none;
+      
+  }
+  
+  nav li a:hover {
+      color: #f2bf49;
+  }
+  
+  .main {
+    font-family: "Mukta Mahee", arial, sans-serif;
+  
+  }
+  
+  #Introduction {
+    background-color: #f2bf49;
+    color:#036;
+    padding: 5.2%;
+  }
+  
+  #Introduction li a:link{
+      text-decoration: none;
+      color: #036;
+  }
+  
+  #Introduction li a:visited{
+      text-decoration: none;
+      color: #036;
+  }
+  
+  #Introduction li a:hover{
+      text-decoration: none;
+      color:white;
+  }
+  
+  #Introduction li a:active{
+      text-decoration: none;
+      color: #036;
+  }
+  
+  
+  #section2 {
+    background-color: #f2bf49;
+    color:#036;
+    height:30vh;
+  }
+  
+  #section4tittle {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-family: cursive;
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+    
+  }
+  
+  .row-content {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column-content {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
